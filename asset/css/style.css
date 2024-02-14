@@ -121,4 +121,11 @@ a {
     }
 }
 
+
+.card{
+    border: 0;
+}
+.card-body{
+    padding: 10px;
+}
 /* Home Page End */
