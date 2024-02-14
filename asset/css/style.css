@@ -16,8 +16,12 @@ body {
 
 a {
     text-decoration: none;
+    color: black;
 }
-
+ h2{
+    font-weight: 800;
+    font-size: 50px;
+ }
 
 
 /* Common CSS Style End */
@@ -27,7 +31,8 @@ a {
     .logo {
         width: 150px;
     }
-    .active{
+
+    .active {
         color: #2b2c6b;
     }
 }
@@ -36,6 +41,7 @@ a {
     .logo {
         width: 200px;
     }
+
     .active {
         color: #2b2c6b;
     }
@@ -45,6 +51,7 @@ a {
     .logo {
         width: 200px;
     }
+
     .active {
         background-color: #2b2c6b;
         color: #ffffffff !important;
@@ -56,6 +63,7 @@ a {
     .logo {
         width: 200px;
     }
+
     .active {
         background-color: #2b2c6b;
         color: #ffffffff !important;
@@ -76,6 +84,9 @@ a {
 
 /* Navbar End */
 
+
+
+
 /* Home Page Start */
 .home-page-bg-a {
     background-image: url(../images/home-page/a.jpg);
@@ -87,7 +98,7 @@ a {
 }
 
 .home-page-first-title {
-    background: rgba(35, 25, 128, 0.3);
+    background: rgba(139, 139, 139, 0.1);
     position: absolute;
     color: #ffffffff;
     top: 50%;
@@ -96,7 +107,7 @@ a {
     font-size: 80px;
 }
 
-.home-page-first-small_title{
+.home-page-first-small_title {
     font-size: 20px;
 }
 
@@ -104,7 +115,7 @@ a {
     .home-page-first-title {
         position: absolute;
         color: #ffffffff;
-        top: 75%;
+        top: 50%;
         text-align: center;
         font-size: 30px;
     }
