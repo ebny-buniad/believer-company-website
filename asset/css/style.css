@@ -20,7 +20,7 @@ a {
 }
  h2{
     font-weight: 800;
-    font-size: 50px;
+    font-size: 40px;
  }
 
 
@@ -127,5 +127,16 @@ a {
 }
 .card-body{
     padding: 10px;
+}
+.more-certificate-button{
+    padding: 10px 20px;
+    background-color: #2b2c6b;
+    border-radius: 3px;
+    color: #ffffffff;
+    transition: .3s;
+}
+.more-certificate-button:hover{
+    background-color: #3a3ef8;  
+    color: #ffffffff;
 }
 /* Home Page End */
