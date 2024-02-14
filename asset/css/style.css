@@ -1,0 +1,113 @@
+body {
+    margin: auto;
+    padding: auto;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+    font-size: 14.5px;
+}
+
+/* Common CSS Style Start */
+
+.icon {
+    color: grey;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/* Common CSS Style End */
+
+/* Navbar Start */
+@media only screen and (max-width: 580px) {
+    .logo {
+        width: 150px;
+    }
+    .active{
+        color: #2b2c6b;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .logo {
+        width: 200px;
+    }
+    .active {
+        color: #2b2c6b;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .logo {
+        width: 200px;
+    }
+    .active {
+        background-color: #2b2c6b;
+        color: #ffffffff !important;
+        border-radius: 3px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .logo {
+        width: 200px;
+    }
+    .active {
+        background-color: #2b2c6b;
+        color: #ffffffff !important;
+        border-radius: 3px;
+    }
+}
+
+.get-quote-button {
+    background-color: #2b2c6b;
+    padding: 10px;
+    color: #ffffffff !important;
+    border-radius: 5px;
+}
+
+.get-quote-button:hover {
+    background-color: #3a3ef8;
+}
+
+/* Navbar End */
+
+/* Home Page Start */
+.home-page-bg-a {
+    background-image: url(../images/home-page/a.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    animation: shrink 3s alternate;
+}
+
+.home-page-first-title {
+    background: rgba(35, 25, 128, 0.3);
+    position: absolute;
+    color: #ffffffff;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 80px;
+}
+
+.home-page-first-small_title{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 580px) {
+    .home-page-first-title {
+        position: absolute;
+        color: #ffffffff;
+        top: 75%;
+        text-align: center;
+        font-size: 30px;
+    }
+}
+
+/* Home Page End */
