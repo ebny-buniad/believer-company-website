@@ -23,8 +23,21 @@ a {
     font-size: 40px;
  }
 
+ .anchor-button{
+    padding: 10px 20px;
+    background-color: #2b2c6b;
+    border-radius: 3px;
+    color: #ffffffff;
+    transition: .3s;
+}
+.anchor-button:hover{
+    background-color: #3a3ef8;  
+    color: #ffffffff;
+}
 
 /* Common CSS Style End */
+
+
 
 /* Navbar Start */
 @media only screen and (max-width: 580px) {
@@ -89,7 +102,7 @@ a {
 
 /* Home Page Start */
 .home-page-bg-a {
-    background-image: url(../images/home-page/a.jpg);
+    background-image: url(../images/home-page/2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -98,9 +111,8 @@ a {
 }
 
 .home-page-first-title {
-    background: rgba(139, 139, 139, 0.1);
     position: absolute;
-    color: #ffffffff;
+    color: rgb(67, 67, 67);
     top: 50%;
     width: 100%;
     text-align: center;
@@ -114,7 +126,7 @@ a {
 @media only screen and (max-width: 580px) {
     .home-page-first-title {
         position: absolute;
-        color: #ffffffff;
+        color: rgb(67, 67, 67);
         top: 50%;
         text-align: center;
         font-size: 30px;
@@ -128,15 +140,5 @@ a {
 .card-body{
     padding: 10px;
 }
-.more-certificate-button{
-    padding: 10px 20px;
-    background-color: #2b2c6b;
-    border-radius: 3px;
-    color: #ffffffff;
-    transition: .3s;
-}
-.more-certificate-button:hover{
-    background-color: #3a3ef8;  
-    color: #ffffffff;
-}
+
 /* Home Page End */
