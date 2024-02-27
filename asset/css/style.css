@@ -20,7 +20,7 @@ a {
 }
  h2{
     font-weight: 800;
-    font-size: 40px;
+    font-size: 32px;
  }
 
  .anchor-button{
@@ -139,6 +139,15 @@ a {
 }
 .card-body{
     padding: 10px;
+}
+
+.item{
+    background-color: #ffffffff !important;
+}
+.affiliations-img{
+    width: 30% !important;
+    margin: auto;
+    display: block;
 }
 
 /* Home Page End */
