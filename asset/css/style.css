@@ -145,7 +145,8 @@ a {
     background-color: #ffffffff !important;
 }
 .affiliations-img{
-    width: 30% !important;
+    width: 160px !important;
+    height: 100px !important;
     margin: auto;
     display: block;
 }
