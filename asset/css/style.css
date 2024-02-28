@@ -150,5 +150,27 @@ a {
     margin: auto;
     display: block;
 }
-
 /* Home Page End */
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+.copy-right{
+    font-size: 12px;
+}
+
+.footer-social-icon{
+    font-size: 22px;
+    transition: .3s;
+}
+
+.footer-social-icon:hover{
+    color: rgb(154, 154, 154);
+}
