@@ -101,7 +101,7 @@ a {
 
 
 /* Home Page Start */
-.home-page-bg-a {
+.page-top-bg {
     background-image: url(../images/home-page/2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -110,7 +110,7 @@ a {
     animation: shrink 3s alternate;
 }
 
-.home-page-first-title {
+.page-first-title {
     position: absolute;
     color: rgb(67, 67, 67);
     top: 50%;
@@ -124,7 +124,7 @@ a {
 }
 
 @media only screen and (max-width: 580px) {
-    .home-page-first-title {
+    .page-first-title {
         position: absolute;
         color: rgb(67, 67, 67);
         top: 50%;
@@ -154,6 +154,19 @@ a {
 
 
 
+/* About Page Start */
+.about-page-top-bg{
+    background: rgba(57, 57, 57, 0.822) url(../images/about-page/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    animation: shrink 3s alternate;
+    background-blend-mode: darken;
+}
+
+
+/* About Page End */
 
 
 
