@@ -168,6 +168,39 @@ a {
 
 /* About Page End */
 
+/* Certificate Page Start */
+.certificate-page-top-bg{
+    background: rgba(57, 57, 57, 0.822) url(../images/certificate-page/certifiacte-page-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    animation: shrink 3s alternate;
+    background-blend-mode: darken;
+}
+
+.certificate-card-img{
+    width: 80%;
+    margin: auto;
+}
+
+.read-more-button{
+    font-size: 13px;
+    border: 0px;
+    padding: 10px 20px;
+    background-color: #2b2c6b;
+    color: #ffffffff;
+    border-radius: 5px;
+    transition: .3s;
+}
+.read-more-button:hover{
+    background-color: #3a3ef8;
+}
+.arrow-icon{
+    font-size: 10px;
+}
+/* Certificate Page End */
+
 
 
 
