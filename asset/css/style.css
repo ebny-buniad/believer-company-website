@@ -10,7 +10,7 @@ body {
 /* Common CSS Style Start */
 
 .icon {
-    color: grey;
+    color: rgb(255, 255, 255);
     margin-right: 10px;
 }
 
@@ -35,6 +35,9 @@ a {
     color: #ffffffff;
 }
 
+.top-bar{
+    background-color: #2b2c6b;
+}
 /* Common CSS Style End */
 
 
