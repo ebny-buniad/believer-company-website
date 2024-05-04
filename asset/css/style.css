@@ -204,6 +204,38 @@ a {
 }
 /* Certificate Page End */
 
+/* Structural and Safety Start */
+
+.structural-page-top-bg{
+    background: rgba(103, 103, 103, 0.6) url(../images/structural-safety/bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    animation: shrink 3s alternate;
+    background-blend-mode: darken;
+}
+
+.structural-2bg{
+    width: 100%;
+    border-radius: 10px;
+}
+/* Structural and Safety End */
+
+/* Others Services Start */
+
+.others-services-page-top-bg{
+    background: rgba(103, 103, 103, 0.6) url(../images/others-services/others-services-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    animation: shrink 3s alternate;
+    background-blend-mode: darken;
+}
+
+/* Others Services End */
+
 
 
 
