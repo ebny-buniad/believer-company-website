@@ -242,6 +242,43 @@ a {
 
 
 
+
+
+
+
+
+
+/* Contact Page Start */
+
+.contct-page-top-bg{
+    background: rgba(103, 103, 103, 0.6) url(../images/contact-page.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    animation: shrink 3s alternate;
+    background-blend-mode: darken;
+}
+
+.contact-page-icon{
+    padding-top: 10%;
+    margin: auto;
+    display: block;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    background-color: #2b2c6b;
+    color: #ffffffff;
+}
+/* Contact Page End */
+
+
+
+
+
+
+
 /* Footer */
 .copy-right{
     font-size: 12px;
