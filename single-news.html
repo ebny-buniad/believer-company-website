@@ -116,14 +116,36 @@
     </section>
     <!-- Top Bar End -->
 
-
-
     <!-- Header/Navbar End -->
 
     <main class="flex-shrink-0">
-        <section class="container" style="margin-top: 200px;">
-            <h1>7 Things to Do Before a Business Meeting</h1>
+
+        <section class="container" style="margin-top: 170px;">
+            <a href="index.html">Home</a><i class="fa-solid fa-angles-right p-2"></i><a href="news.html">News &
+                Events</a>
         </section>
+
+        <!-- Single News Header Image -->
+
+        <section class="container">
+            <img class="single-news-header-img" src="asset/images/news/single-news-header-img.jpg" alt="">
+            <span><i class="fa-regular fa-calendar pe-2"></i>20 Jan 2024</span>
+            <h2 class="single-page-news-title">7 Things to Do Before a Business Meeting</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam totam maxime excepturi unde repellendus
+                reiciendis recusandae a placeat? At modi neque maiores voluptas perferendis est animi. Eos tempora autem
+                illum facere, commodi voluptatum. Molestiae ea repudiandae iure iste vitae quaerat omnis temporibus
+                libero perspiciatis aliquid suscipit ex, corrupti obcaecati corporis in, rem illum. Eius non sed ea
+                dolorem, dolor laudantium nulla aspernatur nam. Molestias harum id inventore magnam rem laboriosam
+                accusamus sed minus quod quisquam nesciunt iure, consectetur nihil eius nobis sint aspernatur molestiae
+                suscipit deleniti iusto explicabo! Placeat corrupti voluptatem vero earum rem nisi repellendus numquam
+                ducimus vel ratione.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam doloribus inventore ipsa quidem incidunt,
+                amet fuga, cumque doloremque ex velit tempora pariatur illum illo? Quae ea error a aperiam, iusto
+                distinctio perferendis ipsum laborum, eveniet esse amet vitae ab explicabo reprehenderit hic quis
+                repellendus magnam excepturi aliquam sit! Et, reprehenderit.</p>
+        </section>
+
+
     </main>
 
     <footer data-aos="fade-up" class="footer mt-auto py-3 bg-light">
@@ -135,7 +157,9 @@
                         research &
                         development organization.</p>
                     <p class="mt-3">Follow Us</p>
-                    <a class="pe-3 footer-social-icon" href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a target="_blank" class="pe-3 footer-social-icon"
+                        href="https://www.facebook.com/believercompliance?mibextid=ZbWKwL"><i
+                            class="fa-brands fa-facebook"></i></a>
                     <a class="pe-3 footer-social-icon" href=""><i class="fa-brands fa-square-x-twitter"></i></a>
                     <a class="pe-3 footer-social-icon" href=""><i class="fa-brands fa-square-instagram"></i></a>
                     <a class="pe-3 footer-social-icon" href=""><i class="fa-brands fa-google-plus-g"></i></a>
@@ -218,6 +242,45 @@
                 }
             }
         })
+    </script>
+
+    <!-- Whats App Chat -->
+
+    <script>
+        var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?32129';
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = url;
+        var options = {
+            "enabled": true,
+            "chatButtonSetting": {
+                "backgroundColor": "#4dc247",
+                "ctaText": "",
+                "borderRadius": "25",
+                "marginLeft": "0",
+                "marginBottom": "100",
+                "marginRight": "10",
+                "position": "right"
+            },
+            "brandSetting": {
+                "brandName": "BELIEVER",
+                "brandSubTitle": "Valued Compliance. Empowered Growth.",
+                "brandImg": "asset/images/favicon.png",
+                "welcomeText": "Hi there!\nHow can I help you?",
+                "messageText": "",
+                "backgroundColor": "#0a5f54",
+                "ctaText": "Start Chat",
+                "borderRadius": "25",
+                "autoShow": false,
+                "phoneNumber": "+8801817101489"
+            }
+        };
+        s.onload = function () {
+            CreateWhatsappChatWidget(options);
+        };
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
     </script>
 
 </body>
