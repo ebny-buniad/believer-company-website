@@ -339,3 +339,39 @@ h2 {
 .footer-social-icon:hover {
     color: rgb(154, 154, 154);
 }
+
+
+/* Get Quote Start */
+
+.get-quote-section{
+    margin-top: 200px;
+    border-radius: 10px;
+    color: #ffffffff;
+    padding: 5%;
+    background-color: #02044a;
+}
+
+
+.qoute-section-icon{
+    margin-top: 100px;
+}
+
+.qoute-section-icon i{
+    color: rgb(82, 163, 255);
+}
+
+.qoute-social-icon{
+    padding: 20px;
+    transition: .3s;
+}
+.qoute-social-icon:hover{
+    background-color: #3a3ef8;
+    border-radius: 8px;
+}
+
+.get-quote-form{
+    background: rgba(255, 255, 255, 0.059);
+    border-radius: 10px;
+    padding: 20px;
+}
+/* Get Quote End */
